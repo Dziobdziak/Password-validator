@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <title>Walidator hasła</title>
+</head>
+<body>
+    <div class="bigBox">
+            <div class="passBox">
+                <p>Sprawdź czy Twoje hasło jest wystarczająco silne!</p>    
+                <br><br> 
+                <input type="password" class="hidePass">
+                <p class="visiblePass">Twoje hasło to: </p>
+            </div>
+            <div class="infoBox">
+                <h1>Hasło musi składac się z:</h1>
+                <br><br>
+                <div class="conditions">
+                   <ul>
+                    <li class="condition1">minimum 10 znaków</li>
+                    <li class="condition2">liter</li>
+                    <li class="condition3">wielkich liter</li>
+                    <li class="condition4">cyfr</li>
+                    <li class="condition5">znaków specjalnych</li>
+                </ul> 
+                </div>  
+                <br><br>
+                    <p class="finalText"></p>        
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
